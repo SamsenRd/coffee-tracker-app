@@ -61,10 +61,30 @@ button {
 
 #increment-btn {
     background: #ff9f9f;
+    
 }
 
+#increment-btn:hover {
+    background-color: #f96666;
+    cursor: pointer;
+}
+
+#increment-btn:active {
+    background-color: #f96666;
+    transform: translateY(4px);
+}
 #save-btn {
     background: #b8ffb8;
+}
+
+#save-btn:hover {
+    background-color: #61f861;
+    cursor: pointer;
+}
+
+#save-btn:active {
+    background-color: #61f861;
+    transform: translateY(4px);
 }
 
 p {
